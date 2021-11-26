@@ -1,0 +1,57 @@
+.container {
+  background-image: url(./assets/img/gunung.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.judul{
+    display: inline-block;
+    padding: auto;
+    margin: auto;
+}
+
+
+
+.ul1 {
+  display: inline-flex;
+  
+  
+  margin-left: 90%;
+}
+
+.ul2{
+    
+    color: black;
+    text-decoration: none;
+}
+
+.ul1 li {
+  padding-left: 20px;
+  list-style: none;
+  display: inline-block;
+  font-size: 20px;
+}
+
+body {
+  margin: 0%;
+}
+
+.nav1 {
+  display: inline-block;
+  margin-left: 25%;
+}
+
+.div1 {
+  padding: 150px;
+}
+
+.nav-main {
+  border-bottom: 1px solid black;
+}
+
+.logo{
+    display: inline-flex;
+    margin-top: 15px;
+    margin-left: 40px;
+   
+}
