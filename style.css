@@ -7,10 +7,12 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 .judul {
+  font-size: 20px;
   display: inline-block;
   padding: auto;
   margin: auto;
   color: white;
+
 }
 
 .ul1 {
@@ -32,13 +34,23 @@ a{
 .ul2 {
   color: rgb(255, 255, 255);
   text-decoration: none;
+  font-weight: normal;
+  font-size: 20px;
+
 }
+
+
+
+.ul2:hover {
+  color: rgb(23, 63, 240);
+}
+
 
 .ul1 li {
   padding-left: 20px;
   list-style: none;
   display: inline-block;
-  font-size: 20px;
+  
 }
 
 body {
