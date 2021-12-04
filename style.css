@@ -1,6 +1,4 @@
-
-
- .container {
+.container {
   background-image: url(./assets/img/bg3.png);
   background-repeat: no-repeat;
   background-size: 100%;
@@ -12,22 +10,21 @@
   padding: auto;
   margin: auto;
   color: white;
-
 }
 
 .ul1 {
   display: inline-flex;
-  
-  margin-left: 70%;
+
+  margin-left: 83%;
 }
 .icon1 {
   font-size: 35px;
   display: inline-flex;
- 
+
   margin-left: 50%;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
@@ -36,21 +33,16 @@ a{
   text-decoration: none;
   font-weight: normal;
   font-size: 20px;
-
 }
-
-
 
 .ul2:hover {
   color: rgb(23, 63, 240);
 }
 
-
 .ul1 li {
   padding-left: 20px;
   list-style: none;
   display: inline-block;
-  
 }
 
 body {
