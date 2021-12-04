@@ -15,13 +15,12 @@
 .ul1 {
   display: inline-flex;
 
-  margin-left: 83%;
+  margin-right: auto;
 }
 .icon1 {
   font-size: 35px;
   display: inline-flex;
-
-  margin-left: 50%;
+  margin-left: margin 50%;
 }
 
 a {
@@ -56,6 +55,30 @@ body {
 
 .div1 {
   padding: 150px;
+}
+
+.div-visi {
+  grid-area: left;
+  background-color: aquamarine;
+  border-radius: 7px;
+
+  display: inline-block;
+}
+
+.div-mai {
+  grid-area: middle;
+  display: inline-block;
+  padding-left: 10%;
+}
+
+.div-misi {
+  grid-area: right;
+  background-color: aquamarine;
+  border-radius: 7px;
+  display: inline-block;
+  padding-left: 10%;
+
+  /* display: inline-flex; */
 }
 
 /* .nav-main {
