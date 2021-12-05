@@ -30,11 +30,11 @@ body{
 }
 
 #about {
-  margin-top: 13%;
+  margin-top: 9%;
 }
 
 
-.judul {
+#judul {
   font-size: 20px;
   display: inline-block;
   padding: auto;
@@ -81,33 +81,6 @@ body {
   padding: 150px;
 }
 
-.div-visi {
-  grid-area: left;
-  background-color: aquamarine;
-  border-radius: 7px;
-
-  display: inline-block;
-}
-
-.div-mai {
-  grid-area: middle;
-  display: inline-block;
-  padding-left: 10%;
-}
-
-.div-misi {
-  grid-area: right;
-  background-color: aquamarine;
-  border-radius: 7px;
-  display: inline-block;
-  padding-left: 10%;
-
-  /* display: inline-flex; */
-}
-
-/* .nav-main {
-  border-bottom: 1px solid black;
-} */
 
 .logo {
   display: inline-flex;
