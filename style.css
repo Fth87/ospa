@@ -1,9 +1,39 @@
-.container {
-  background-image: url(./assets/img/bg3.png);
+
+body{
+  font-family: 'Metropolis-Regular', "Segoe UI", Helvetica, Helvetica, sans-serif;;
+  
+  /* background-image: url(./assets/img/bg3.png) ; */
   background-repeat: no-repeat;
-  background-size: 100%;
-  font-family: Arial, Helvetica, sans-serif;
+  background-attachment: scroll;
+  background-size: auto ;
+  
 }
+
+.content-banner{
+  height: 400px;
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-top: 160px;
+  position: relative;
+  color: white;
+  
+}
+
+.content-banner .motto{
+  font-size: 34px;
+  font-weight: 400;
+    line-height: 1.2;
+}
+
+#about {
+  margin-top: 13%;
+}
+
+
 .judul {
   font-size: 20px;
   display: inline-block;
@@ -12,16 +42,6 @@
   color: white;
 }
 
-.ul1 {
-  display: inline-flex;
-
-  margin-right: auto;
-}
-.icon1 {
-  font-size: 35px;
-  display: inline-flex;
-  margin-left: margin 50%;
-}
 
 a {
   text-decoration: none;
@@ -38,14 +58,18 @@ a {
   color: rgb(23, 63, 240);
 }
 
-.ul1 li {
+
+
+#ul1 li {
   padding-left: 20px;
   list-style: none;
   display: inline-block;
 }
 
 body {
-  margin: 0%;
+  margin: 0% 0% 2000%;
+  
+   
 }
 
 .nav1 {
@@ -87,7 +111,9 @@ body {
 
 .logo {
   display: inline-flex;
-  margin-top: 15px;
+  margin-top: 0%;
   /* margin-left: 40px; */
   padding-left: 8%;
 }
+
+
